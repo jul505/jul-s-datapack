@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:conduit"
+        },
+        "title": "Open Your Eyes",
+        "description": "Activate a conduit",
+		    "frame": "challenge"
+    },
+    "parent": "custom:ocean/treasure",
+    "criteria": {
+        "conduit_power": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:conduit_power": {}
+                }
+            }
+        }
+    }
+}

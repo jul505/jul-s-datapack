@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:ender_pearl"
+		},
+		"title": "This fucking little thing hit so hard in my hearth, Memories",
+		"description": "Be hurt by an endermite",
+		"frame": "challenge"
+	},
+	"parent": "custom:end/enter_end_gateway",
+	"criteria": {
+		"endermite": {
+            "trigger": "minecraft:entity_hurt_player",
+               "conditions": {
+                   "damage": {
+                       "source_entity": {
+                           "type": "endermite"
+                       }
+					}
+				}
+            }
+		}
+	}
+}

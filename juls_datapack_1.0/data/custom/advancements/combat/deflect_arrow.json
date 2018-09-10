@@ -1,0 +1,28 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow"
+        },
+        "title": {
+            "translate": "advancements.story.deflect_arrow.title"
+        },
+        "description": {
+            "translate": "advancements.story.deflect_arrow.description"
+        },
+        "frame": "goal"
+    },
+    "parent": "custom:combat/shield",
+    "criteria": {
+        "deflected_projectile": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": true
+                    },
+                    "blocked": true
+                }
+            }
+        }
+    }
+}

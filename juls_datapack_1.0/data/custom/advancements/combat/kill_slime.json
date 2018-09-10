@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:slime_ball"
+		},
+		"title": "Yay! ... Oh Crap, There's More!",
+		"description": "'Kill' a slime",
+		"frame": "goal"
+	},
+	"parent": "custom:combat/defeat_a_bat",
+	"criteria": {
+		"slime": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "slime"
+					}
+				}
+			}
+		}
+	}
+}

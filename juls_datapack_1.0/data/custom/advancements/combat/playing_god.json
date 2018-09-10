@@ -1,0 +1,22 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:blaze_powder",
+			"nbt": "{Enchantments:[{id:\"minecraft:channeling\",lvl:1}]}"
+		},
+		"title": "Playing God",
+		"description": "Strike a pig with channeling",
+		"frame": "goal"
+	},
+	"parent": "custom:combat/throw_trident",
+	"criteria": {
+		"struck_pig": {
+			"trigger": "minecraft:channeled_lightning",
+			"conditions": {
+				"victims": [{
+					"type": "minecraft:pig"
+				}]
+			}
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:pufferfish"
+		},
+		"title": "Bad Idea",
+		"description": "Eat a piece of pufferfish",
+		"frame": "task"
+	},
+	"parent": "custom:exploration/banniere",
+	"criteria": {
+		"rotten_flesh": {
+			"trigger": "minecraft:consume_item",
+			"conditions": {
+				"item": {
+					"item": "minecraft:pufferfish"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,22 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_wart"
+        },
+        "title": "Basis to Brew",
+        "description": "Collect nether wart"
+    },
+    "parent": "custom:nether/find_fortress",	
+    "criteria": {
+        "nether_wart": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:nether_wart"
+                    }
+                ]
+            }
+        }
+    }
+}

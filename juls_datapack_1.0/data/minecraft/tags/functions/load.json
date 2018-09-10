@@ -1,0 +1,8 @@
+{
+  "values": [
+    "franswapack:set_constants",
+    "custom:death_coordinats/setup",
+    "custom:recipe",
+    "custom:scoreboard"
+  ]
+}

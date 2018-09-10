@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_planks"
+		},
+		"title": "Stale Air",
+		"description": "Enter an abandoned mineshaft",
+		"frame": "goal"
+	},
+	"parent": "custom:exploration/village",
+	"criteria": {
+		"mineshaft": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "Mineshaft"
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:phantom_membrane"
+		},
+		"title": "Now you can repair your Elytra",
+		"description": "Kill a Phantom",
+		"frame": "goal"
+	},
+	"parent": "custom:combat/sniper_duel",
+	"rewards": {
+        "experience": 5000
+    },
+	"criteria": {
+		"hurt_phantom": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "phantom"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,32 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:trident"
+		},
+		"title": "Pulled out to Sea",
+		"description": "Use Riptide to transport yourself through water",
+		"frame": "goal"
+	},
+	"parent": "custom:ocean/turtle_shell",
+	"criteria": {
+		"riptide": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:trident",
+						"enchantments": [
+							{
+								"enchantment": "minecraft:riptide",
+								"levels": {
+									"max": 3,
+									"min": 1
+								}
+							}
+						]
+					}
+				]
+			}
+		}
+	}
+}

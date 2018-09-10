@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:white_banner"
+        },
+        "title": "Choose your side",
+        "description": "Craft a banner",
+        "frame": "goal"
+    },
+    "parent": "custom:exploration/root",
+    "criteria": {
+        "flint_and_steel": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:white_banner"
+                    }
+                ]
+            }
+        }
+    }
+}

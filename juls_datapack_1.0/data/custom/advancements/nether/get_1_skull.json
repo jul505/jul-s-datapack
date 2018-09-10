@@ -1,0 +1,25 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:wither_skeleton_skull"
+        },
+        "title": "FIRST HEAD",
+        "description": "Get 1 wither skeleton's head",
+		"frame": "challenge"
+    },
+    "parent": "custom:nether/get_blaze_rod",
+    "criteria": {
+
+		"wither_skeleton": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "item": "minecraft:wither_skeleton_skull",
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "custom:nether/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "title": "Will you survive ???",
+    "description": "Find a fortress",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nether_fortress": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "Fortress"
+			}
+		}
+  },
+  "requirements": [
+    [
+      "nether_fortress"
+    ]
+  ]
+}

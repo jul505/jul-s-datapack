@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:diamond_ore"
+		},
+		"title": "Where are you ??? dammit",
+		"description": "Descend deep enough to find diamonds",
+		"frame": "goal"
+	},
+	"parent": "custom:caving/root",
+	"criteria": {
+		"16": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"position": {
+					"y": {
+						"max": 16
+					}
+				}
+			}
+		}
+	}
+}

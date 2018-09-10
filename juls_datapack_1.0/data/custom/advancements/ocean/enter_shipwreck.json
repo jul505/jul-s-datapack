@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:map"
+		},
+		"title": "find the treasure map",
+		"description": "Enter an Shipwreck",
+		"frame": "goal"
+	},
+	"parent": "custom:ocean/enter_monument",
+	"criteria": {
+		"monument": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "Shipwreck"
+			}
+		}
+	}
+}

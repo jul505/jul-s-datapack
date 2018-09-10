@@ -1,0 +1,13 @@
+{
+  "values": [
+    "franswapack:change_dimension",
+    "franswapack:check_position",
+    "franswapack:update_constants",
+    "custom:effect",
+    "custom:death_coordinats/start",
+    "custom:advanc",
+    "custom:tick_enchant",
+    "custom:xp_bottle"
+
+  ]
+}

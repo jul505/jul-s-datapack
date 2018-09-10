@@ -1,0 +1,18 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:oak_door"
+		},
+		"title": "Civilization",
+		"description": "Enter a village"
+	},
+	"parent": "custom:exploration/root",
+	"criteria": {
+		"village": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "Village"
+			}
+		}
+	}
+}

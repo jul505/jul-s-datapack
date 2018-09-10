@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:cooked_chicken"
+		},
+		"title": "Link's strongest Ennemies",
+		"description": "Eat 500 Chikens",
+		"frame": "challenge"
+	},
+	"parent": "custom:exploration/chorus",
+	"criteria": {
+    "impossible": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

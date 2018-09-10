@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bone"
+		},
+		"title": "Stalhorse",
+		"description": "Defeat a skeletal horse",
+		"frame": "goal"
+	},
+	"parent": "custom:combat/kill_all_mobs",
+	"criteria": {
+		"skeleton_horse": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "minecraft:skeleton_horse"
+				}
+			}
+		}
+	}
+}

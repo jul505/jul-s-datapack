@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanting_table"
+    },
+    "title": {
+      "translate": "advancements.story.enchant_item.title"
+    },
+    "description": {
+      "translate": "advancements.story.enchant_item.description"
+    },
+    "background": "minecraft:textures/block/bookshelf.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "enchanted_item": {
+      "trigger": "minecraft:enchanted_item",
+      "conditions": {}
+    }
+  },
+  "requirements": [
+    [
+      "enchanted_item"
+    ]
+  ]
+}

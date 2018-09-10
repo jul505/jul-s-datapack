@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bat_spawn_egg"
+		},
+		"title": "Anti-Batman",
+		"description": "Kill a bat",
+		"frame": "task"
+	},
+	"parent": "custom:combat/root",
+	"criteria": {
+		"bat": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "bat"
+				}
+			}
+		}
+	}
+}

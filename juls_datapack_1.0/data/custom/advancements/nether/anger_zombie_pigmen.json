@@ -1,0 +1,21 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:ZombiePigman}"
+        },
+        "title": "Piggy Biker Gang",
+        "description": "If you mess with one, you mess with all of them"
+    },
+    "parent": "custom:nether/return_to_sender",  
+    "criteria": {
+        "hurt_pigman": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_pigman"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:filled_map"
+		},
+		"title": "Hidden Booty",
+		"description": "Use a treasure map to find buried treasure",
+		"frame": "goal"
+	},
+	"parent": "custom:ocean/enter_shipwreck",
+	"criteria": {
+		"buried_treasure": {
+			"trigger": "minecraft:location",
+			"conditions": {
+				"feature": "Buried_Treasure"
+			}
+		}
+	}
+}

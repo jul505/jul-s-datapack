@@ -1,0 +1,21 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:chorus_fruit"
+		},
+		"title": "Enderman Beginning",
+		"description": "Eat 100 Chorus",
+		"frame": "challenge"
+	},
+	"parent": "custom:exploration/pufferfish",
+	"criteria": {
+		"impossible": {
+      "trigger": "minecraft:impossible"
+    }
+	},
+  "requirements": [
+    [
+      "impossible"
+    ]
+  ]
+}

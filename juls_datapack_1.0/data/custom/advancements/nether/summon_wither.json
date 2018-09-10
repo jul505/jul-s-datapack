@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:nether_star"
+        },
+        "title": "Are you ready ?? For the Death",
+        "description": {
+            "translate": "Summon the wither"
+        },
+		"frame": "challenge"
+    },
+    "parent": "custom:nether/get_3_skull",
+	"rewards": {
+        "experience": 100
+    },
+    "criteria": {
+        "summon_wither": {
+            "trigger": "minecraft:summoned_entity",
+            "conditions": {
+                "entity": {
+                    "type": "wither"
+                }
+            }
+        }
+    }
+}
